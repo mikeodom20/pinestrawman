@@ -1,0 +1,5 @@
+name: The Pinestraw Man
+description: Site Developed by Mike Odom
+gems: [jekyll-paginate]
+paginate: 10
+baseurl: '/pinestrawman'
