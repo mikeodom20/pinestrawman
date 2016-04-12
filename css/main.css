@@ -1,0 +1,96 @@
+body{
+  background: url("../images/pageTexture.jpg") repeat;
+}
+
+.flexslider {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  z-index: 10;
+}
+.flexslider img{
+  position:absolute;
+  top:0px;
+  width:100%
+}
+
+.brandNav{
+  display:block;
+  position: absolute;
+  height:400px;
+  width:100%;
+  top: 0px;
+  left:0px;
+}
+.brand{
+  diplay: block;
+  position: relative;
+  top: 20%;
+  left:10%;
+  float:left;
+  z-index: 200;
+}
+
+.mainNav{
+  display:block;
+  height:49px;
+  float: right;
+  background-image: url("../images/navGradient.png");
+  border-radius:5px;
+  border: 5px solid #4D8628;
+  position:relative;
+  right:175px;
+  top:50px;
+  z-index: 200;
+}
+.mainNav li {
+  display:inline-block;
+}
+.mainNav li a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  margin:25px;
+  position: relative;
+  top: 11px;
+  text-shadow: 2px 2px #003333;
+}
+.mainNav li a:hover{
+  color:#ccc;
+}
+
+footer{
+  display: block;
+  height:200px;
+  background:url("../images/Pine-Straw-21.jpg") center center;
+  background-color: rgba(0,0,0,0.7);
+  background-blend-mode: overlay;
+  background-size:cover;
+}
+
+footer ul {
+  display:flex;
+  justify-content: center;
+}
+
+footer li {
+  display:inline-block;
+  padding:30px;
+  text-align: center;
+}
+
+footer a {
+
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  padding:10px;
+}
+
+footer p {
+  color: white;
+  text-align: center
+}
