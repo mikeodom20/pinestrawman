@@ -2,6 +2,10 @@ body{
   background: url("../images/pageTexture.jpg") repeat;
 }
 
+.container{
+  padding: 30px;
+}
+
 .flexslider {
   display: block;
   position: relative;
@@ -41,7 +45,7 @@ body{
   border-radius:5px;
   border: 5px solid #4D8628;
   position:relative;
-  right:175px;
+  right:10%;
   top:50px;
   z-index: 200;
 }
@@ -58,7 +62,7 @@ body{
   text-shadow: 2px 2px #003333;
 }
 .mainNav li a:hover{
-  color:#ccc;
+  color:#1EAEDB;
 }
 
 footer{
@@ -93,4 +97,12 @@ footer a {
 footer p {
   color: white;
   text-align: center
+}
+
+.mainContent h1,h2,h3,h4,h5,h6{
+  color: #006633;
+}
+
+.sidebar h1,h2,h3,h4,h5,h6{
+  color: #006633;
 }
