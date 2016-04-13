@@ -17,12 +17,27 @@ body{
 .flexslider img{
   position:absolute;
   top:0px;
-  width:100%
+  width:100%;
+  min-height: 400px;
+  overflow:hidden;
+}
+
+.flexslider h2{
+  display:box;
+  position:relative;
+  float:right;
+  max-width: 40%;
+  text-align: right;
+  top: 200px;
+  right: 175px;
+  color: white;
+  text-shadow: 2px 2px #003333;
 }
 
 .brandNav{
-  display:block;
+  display:flex;
   position: absolute;
+  justify-content: space-between;
   height:400px;
   width:100%;
   top: 0px;
