@@ -121,3 +121,11 @@ footer p {
 .sidebar h1,h2,h3,h4,h5,h6{
   color: #006633;
 }
+
+.indexGallery{
+display:flex;
+justify-content: center;
+flex-wrap:wrap;
+justify-content: space-around;
+border: 3px solid white;
+}
