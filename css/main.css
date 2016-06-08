@@ -4,6 +4,7 @@ body{
 
 .container{
   padding: 30px;
+  padding-top:70px;
 }
 
 .flexslider {
@@ -25,17 +26,17 @@ body{
 .flexslider h2{
   display:box;
   position:relative;
-  float:right;
-  max-width: 40%;
-  text-align: right;
-  top: 200px;
-  right: 175px;
+  float:none;
+  max-width: 100%;
+  text-align: center;
+  top: 270px;
+  font-size: 30px;
   color: white;
   text-shadow: 2px 2px #003333;
 }
 
 .brandNav{
-  display:flex;
+  display:block;
   position: absolute;
   justify-content: space-between;
   height:400px;
@@ -46,34 +47,37 @@ body{
 .brand{
   diplay: block;
   position: relative;
-  top: 20%;
-  left:10%;
+  top: 3%;
+  left:3%;
   float:left;
   z-index: 200;
 }
 
 .mainNav{
-  display:block;
-  height:49px;
-  float: right;
-  background-image: url("../images/navGradient.png");
-  border-radius:5px;
-  border: 5px solid #4D8628;
-  position:relative;
-  right:10%;
-  top:50px;
-  z-index: 200;
+  position:absolute;
+  height:auto;
+  background-color: rgba(12,49,10,0.7);
+  top:404px;
+  text-align: center;
+  z-index: 900;
+  margin-bottom:0px;
+}
+
+.mainNav ul{
+  padding:7px;
+  margin-bottom:0px;
 }
 .mainNav li {
   display:inline-block;
+  float:none;
+  margin-bottom:0px;
 }
 .mainNav li a{
   text-decoration: none;
   color: white;
-  font-size: 18px;
+  font-size: 20px;
   margin:25px;
-  position: relative;
-  top: 11px;
+  padding-top: 10px;
   text-shadow: 2px 2px #003333;
 }
 .mainNav li a:hover{
@@ -91,12 +95,13 @@ footer{
 
 footer ul {
   display:flex;
+  flex-flow:wrap;
   justify-content: center;
 }
 
 footer li {
   display:inline-block;
-  padding:30px;
+  padding:0px;
   text-align: center;
 }
 
@@ -111,7 +116,7 @@ footer a {
 
 footer p {
   color: white;
-  text-align: center
+  text-align: center;
 }
 
 .mainContent h1,h2,h3,h4,h5,h6{
@@ -129,4 +134,60 @@ footer p {
 .indexGallery img{
   max-width: 100%;
   padding:10px;
+}
+
+@media (min-width: 400px) {
+  .flexslider h2{
+    display:box;
+    position:relative;
+    float:none;
+    max-width: 95%;
+    text-align: center;
+    top: 280px;
+    color: white;
+    text-shadow: 2px 2px #003333;
+  }
+  .brand{
+    diplay: block;
+    position: relative;
+    top: 8%;
+    left:11%;
+    float:left;
+    z-index: 200;
+  }
+  footer li {
+    display:inline-block;
+    padding:5px;
+    text-align: center;
+  }
+}
+
+
+@media (min-width: 1000px) {
+  .flexslider h2{
+  display:box;
+  position:relative;
+  float:right;
+  max-width: 40%;
+  text-align: right;
+  font-size: 50px;
+  top: 200px;
+  right: 175px;
+  color: white;
+  text-shadow: 2px 2px #003333;
+  }
+  .brand{
+    diplay: block;
+    position: relative;
+    top: 20%;
+    left:10%;
+    float:left;
+    z-index: 200;
+  }
+
+  footer li {
+    display:inline-block;
+    padding:30px;
+    text-align: center;
+  }
 }
