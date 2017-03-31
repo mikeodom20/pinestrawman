@@ -17,12 +17,13 @@
         "textFont": "Raleway",
         "isRoundedButtons": false,
         "isAnimatedOnScroll": true,
-        "isScrollToTopButton": true
+        "isScrollToTopButton": true,
+        "isRtl": false
       }
     },
     "versionFirst": "3.11",
-    "uniqCompNum": 19,
-    "versionPublish": "3.11",
+    "uniqCompNum": 20,
+    "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-128x132.png",
     "noImageResize": ""
   },
@@ -446,25 +447,114 @@
           "_tags": [
             "Theme"
           ],
-          "_name": "content7",
-          "_styles": {
-            "P": {
-              "text-align": "center",
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
-              "font-size": "20px",
-              "color": "#04290f"
+          "_name": "features3",
+          "_anchor": "features3-j",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": "3",
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": false
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/trucks-600x337.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             }
           },
-          "_anchor": "content7-a",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
+          "title1": "DELIVERY OPTIONS",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "<b>With our semi trucks and trailers we deliver with pine straw bales to your exact location. Quantity may vary depending on the size of the trailer you may order. we have in stock large 53' trailer with consist of 1386 bales or 48' trailers which consist of 1260 bales. if any further questions you can reach us at (912-278-4045).</b>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/featurespreading.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
           },
-          "text1": "<p><b>DELIVERY OPTIONS</b></p><p><br></p><p>With our semi trucks and trailers we deliver with pine straw bales to your exact location. Quantity may vary depending on the size of the trailer you may order. we have in stock large 53' trailer with consist of 1386 bales or 48' trailers which consist of 1260 bales. if any further questions you can reach us at (912-278-4045).</p>",
-          "text2": "<p><b>SPREADING OPTIONS</b></p><p><br></p><p>We install pine straw in just about any environment needed from private homes to hospitals. you can expect nice straw and blow clean the area when finished.</p>",
-          "text3": "<p><b>TIMBER LEASING</b></p><p><br></p><p>We also lease timber land for the pinestraw. We offer competitive pricing to manage your trees and land. If you are interested, please contact us on the right or give us a call.</p>"
+          "title2": "SPREADING OPTIONS",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "<b>We install pine straw in just about any environment needed from private homes to hospitals. you can expect nice straw and blow clean the area when finished.</b>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/featuretimber.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title3": "TIMBER LEASING",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "<b>We also lease timber land for the pinestraw. We offer competitive pricing to manage your trees and land. If you are interested, please contact us on the right or give us a call.</b>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media4": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
         },
         {
           "_styles": {
@@ -593,9 +683,9 @@
           "title": "CONTACT FORM",
           "subtitle": "Shape your future web project with sharp design and refine coded functions.",
           "form": {
-            "action": "mikeodomdesigns@gmail.com",
+            "action": "thepinestrawman.fs@gmail.com",
             "alerts": {
-              "success": "Thanks for filling out form!"
+              "success": "Thanks for contacting us. We'll be in touch."
             },
             "fields": {
               "name": {
